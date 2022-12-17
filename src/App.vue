@@ -1,4 +1,5 @@
 <template>
+  <Cargo/>
   <Header />
   <Main />
   <Advantage />
@@ -8,11 +9,11 @@
 
 <script>
 import Advantage from './components/Advantage.vue'
+import Cargo from './components/Cargo.vue'
 import Catalog from './components/Catalog.vue'
 import Contacts from './components/Contacts.vue'
 import Header from './components/Header.vue'
 import Main from './components/Main.vue'
-
 export default {
   name: 'App',
   components: {
@@ -20,7 +21,8 @@ export default {
     Main,
     Advantage,
     Catalog,
-    Contacts
+    Contacts,
+    Cargo,
   }
 }
 </script>

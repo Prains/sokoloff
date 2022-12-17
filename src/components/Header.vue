@@ -38,6 +38,7 @@ export default {
     top: 20px;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header__nav {
@@ -105,12 +106,13 @@ export default {
 }
 
 @media screen and (max-width: 767px) {
-.nav__menu {
-    display: none;
-}
-.nav__logo {
-    max-width: 65px;
-    max-height: 65px;
-}
+    .nav__menu {
+        display: none;
+    }
+
+    .nav__logo {
+        max-width: 65px;
+        max-height: 65px;
+    }
 }
 </style>
